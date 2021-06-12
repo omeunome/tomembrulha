@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	background-image: url(imagens/panos.jpg);
+	color: white;
+	background-size: cover;
+}	
+
+h1 {
+	font-size: 100px;
+	padding: 45px 0 0 0;
+	text-shadow: 2px 2px 2px darkgreen;
+	margin-bottom: 15px;
+}
+p {
+	font-size: 25px;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px gray;
+}
+.descritivo {
+	margin-bottom: 80px;
+}
+.botao {
+	text-decoration: none; 
+	color: white; 
+	background-color: rgb(204, 102, 0);
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.botao:hover {
+background-color: rgba(204, 102, 0, 0.7);
+font-weight: bold;
+}
+.contactos {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 110px;
+}
+.contactos li {
+display: inline;
+}
+.contactos a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 45px;
+}
+.contactos a:hover {
+opacity: 0.8;
+}
